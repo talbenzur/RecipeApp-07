@@ -1,10 +1,13 @@
 package com.example.recpieapp.dishes
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.annotation.ExperimentalCoilApi
 import com.example.recpieapp.category.SingleItem
@@ -45,7 +48,9 @@ fun DishesScreen (
 
 @Composable
 fun DishesList(dishes: DishesResponse, onDishClick: (String) -> Unit) {
-    Column{
+    Column(
+        modifier = Modifier.background(color = MaterialTheme.colors.primary)
+    ){
         LazyColumn {
             items(dishes.meals) { item ->
                 SingleItem(title = item.strMeal, thumbnail =item.strMealThumb){

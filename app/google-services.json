@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "735952421283",
+    "project_id": "recipeapp-talvika",
+    "storage_bucket": "recipeapp-talvika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735952421283:android:47e69a6273801efb771a16",
+        "android_client_info": {
+          "package_name": "com.example.recpieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735952421283-ekgq0qt76ip5qgkrble148i0rdrmf31v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recpieapp",
+            "certificate_hash": "ca26b7f55a530e8a822a4d89651ea40a3f3bbfd0"
+          }
+        },
+        {
+          "client_id": "735952421283-rlevf6pdhoada1cnh1pto62fs1mfjg9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALp6juBmzy8yjwl9o6zHjizBTztH66cZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735952421283-rlevf6pdhoada1cnh1pto62fs1mfjg9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
